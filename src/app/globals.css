@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 240 10% 3.9%;
+  --muted: 240 4.8% 95.9%;
+  --muted-foreground: 240 3.8% 46.1%;
+  --accent: 240 4.8% 95.9%;
+  --accent-foreground: 240 5.9% 10%;
+  --border: 240 5.9% 90%;
+  --input: 240 5.9% 90%;
+  --ring: 240 4.9% 83.9%;
+  --primary: 256 85% 55%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 213 94% 68%;
+  --secondary-foreground: 210 40% 98%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+  --app-background: 0 0% 100%;
+  --app-foreground: 240 10% 3.9%;
+  --app-card: 0 0% 100%;
+  --app-card-foreground: 240 10% 3.9%;
+  --radius-xl: 1.25rem;
+  --shadow-lg: 0 20px 45px -15px rgba(79, 70, 229, 0.25);
+}
+
+.dark {
+  --background: 222.2 84% 4.9%;
+  --foreground: 210 40% 98%;
+  --muted: 217.2 32.6% 17.5%;
+  --muted-foreground: 215 20.2% 65.1%;
+  --accent: 217.2 32.6% 17.5%;
+  --accent-foreground: 210 40% 98%;
+  --border: 217.2 32.6% 17.5%;
+  --input: 217.2 32.6% 17.5%;
+  --ring: 224.3 76.3% 48%;
+  --primary: 256 85% 65%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 226 70% 60%;
+  --secondary-foreground: 210 40% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 85.7% 97.3%;
+  --app-background: 222.2 84% 4.9%;
+  --app-foreground: 210 40% 98%;
+  --app-card: 222.2 47.4% 11.2%;
+  --app-card-foreground: 210 40% 98%;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(var(--app-background));
+  color: hsl(var(--app-foreground));
+}
+
+* {
+  @apply border-border;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+a {
+  @apply text-primary underline-offset-4 hover:underline;
+}
+
+button:focus-visible,
+[role='button']:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid hsl(var(--primary));
+  outline-offset: 2px;
+}
