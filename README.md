@@ -39,8 +39,8 @@ cp .env.example .env
 
 Отредактируйте `.env`:
 
-- `DATABASE_PROVIDER` (`sqlite` или `postgresql`)
-- `DATABASE_URL` / `SHADOW_DATABASE_URL`
+- `DATABASE_URL` (по умолчанию SQLite `file:./dev.db`; для PostgreSQL укажите свой URL)
+- `SHADOW_DATABASE_URL` (только для PostgreSQL, можно удалить строку для SQLite)
 - `NEXTAUTH_SECRET`, SMTP-конфигурация для magic link (в dev можно оставить по умолчанию)
 - `OPENAI_API_KEY` (опционально; без ключа используется фоллбек)
 - `DEMO_LOGIN_TOKEN` — токен для демо-входа (по умолчанию `demo`)
