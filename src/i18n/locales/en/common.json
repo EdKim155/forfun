@@ -1,0 +1,166 @@
+{
+  "app": {
+    "title": "Prompt Engineer in Your Pocket",
+    "tagline": "Your personal prompt crafting assistant"
+  },
+  "nav": {
+    "onboarding": "Onboarding",
+    "builder": "Builder",
+    "templates": "Templates",
+    "library": "Library",
+    "settings": "Settings"
+  },
+  "actions": {
+    "continue": "Continue",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "generate": "Generate",
+    "search": "Search",
+    "create": "Create",
+    "update": "Update"
+  },
+  "onboarding": {
+    "title": "Let's craft your perfect prompt toolkit",
+    "description": "Pick AI companions and describe your tasks — we'll prepare smart templates",
+    "steps": {
+      "tools": "Tools",
+      "category": "Focus",
+      "brief": "Brief",
+      "review": "Review"
+    },
+    "actions": {
+      "back": "Back",
+      "next": "Next",
+      "finish": "Finish",
+      "reset": "Reset"
+    },
+    "briefHint": "Share the goal, constraints, audience and tone you expect.",
+    "reviewTools": "Selected tools",
+    "reviewCategory": "Primary focus",
+    "reviewBrief": "Your brief",
+    "categories": {
+      "marketing": "Campaigns, landing pages, email flows, content marketing",
+      "education": "Learning paths, onboarding, courses",
+      "development": "Code, reviews, architecture, documentation",
+      "design": "UI/UX, visuals, concepting",
+      "analytics": "Reports, dashboards, insights",
+      "research": "Market research, interviews, insights",
+      "visual": "Images, renders, photo & video",
+      "support": "Support scripts, FAQs, responses",
+      "other": "Anything experimental or custom"
+    }
+  },
+  "builder": {
+    "context": {
+      "title": "Prompt builder",
+      "description": "Combine tools, direction and brief — we'll suggest the best template",
+      "tools": "Tools",
+      "category": "Focus",
+      "brief": "Brief",
+      "placeholder": "Describe the task, audience, format and tone",
+      "generate": "Generate prompt",
+      "generating": "Generating…",
+      "generatingHint": "We stitch together best practices and tailor it for you",
+      "anyCategory": "Any focus"
+    },
+    "templates": {
+      "title": "Templates",
+      "description": "Pick a base template or craft your own",
+      "recommended": "Recommended",
+      "all": "All",
+      "empty": "No templates match yet — try widening filters"
+    },
+    "preview": {
+      "placeholderTitle": "Generate a prompt",
+      "placeholderDescription": "Choose tool and focus, describe the brief — the final prompt will appear here.",
+      "hintsTitle": "Tips",
+      "hint1": "Add constraints: length, answer format, audience.",
+      "hint2": "Use variables inside templates to adapt faster.",
+      "hint3": "Save the winning prompts to your library."
+    }
+  },
+  "templatesPage": {
+    "list": {
+      "title": "Templates",
+      "description": "Tweak curated templates or add your own",
+      "create": "New template",
+      "empty": "No personal templates yet"
+    },
+    "form": {
+      "create": "Save template",
+      "update": "Update template"
+    },
+    "messages": {
+      "created": "Template saved",
+      "updated": "Template updated",
+      "deleted": "Template removed",
+      "error": "Something went wrong"
+    }
+  },
+  "library": {
+    "filters": {
+      "title": "Filters",
+      "description": "Find prompts by tool, focus or keywords",
+      "search": "Search",
+      "placeholder": "E.g. landing page, marketing, education",
+      "tools": "Tools",
+      "anyTool": "All tools",
+      "categories": "Focus areas",
+      "anyCategory": "All focus areas"
+    },
+    "list": {
+      "title": "Prompt library",
+      "description": "Saved prompts enriched with tags and notes",
+      "empty": "Nothing here yet — save your first prompt",
+      "delete": "Delete"
+    },
+    "messages": {
+      "deleted": "Prompt removed",
+      "error": "Action failed"
+    }
+  },
+  "settings": {
+    "appearance": {
+      "title": "Appearance",
+      "description": "Switch theme or rerun onboarding",
+      "theme": "Interface theme",
+      "themeHint": "Pick light or dark appearance",
+      "light": "Light",
+      "dark": "Dark",
+      "onboarding": "Onboarding",
+      "onboardingHint": "You can repeat onboarding to refresh preferences",
+      "resetOnboarding": "Reset onboarding"
+    },
+    "api": {
+      "title": "API keys",
+      "description": "Stored securely server-side and used for prompt generation only",
+      "label": "OpenAI API Key",
+      "hint": "The key is encrypted and never shown again",
+      "save": "Save key",
+      "saving": "Saving..."
+    },
+    "language": {
+      "title": "Language",
+      "description": "Choose your preferred interface language",
+      "auto": "Detect automatically",
+      "hint": "Applies on next sign in"
+    },
+    "data": {
+      "title": "Data",
+      "description": "Export or import templates",
+      "export": "Export templates",
+      "import": "Import templates",
+      "imported": "Templates imported",
+      "importError": "Import failed"
+    },
+    "messages": {
+      "saved": "Settings saved",
+      "error": "Failed to save"
+    }
+  }
+}
