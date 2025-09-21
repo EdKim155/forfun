@@ -1,0 +1,33 @@
+# Dependencies
+/node_modules
+
+# Build
+/.next
+/out
+/dist
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Prisma
+/prisma/dev.db
+/prisma/dev.db-journal
+/prisma/shadow.db
+
+# Tests
+/coverage
+/playwright-report
+/test-results
+
+# Misc
+.DS_Store
+*.swp
+*.log
