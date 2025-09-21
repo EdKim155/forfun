@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edgar Codes Realities</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+    <header class="hero" id="top">
+      <canvas id="heroCanvas" aria-hidden="true"></canvas>
+      <div class="hero__frame">
+        <nav class="hero__nav" aria-label="Основная навигация">
+          <span class="hero__signature" aria-hidden="true">edgarverse</span>
+          <ul class="hero__menu">
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#portfolio">Проекты</a></li>
+            <li><a href="#insights">Философия</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+          <button class="mode-toggle" type="button" title="Переключить режим студии" aria-controls="studioLab">
+            <span class="mode-toggle__dot" aria-hidden="true"></span>
+            <span class="mode-toggle__dot" aria-hidden="true"></span>
+            <span class="mode-toggle__dot" aria-hidden="true"></span>
+          </button>
+        </nav>
+        <section class="hero__content" aria-label="Приветствие">
+          <div class="hero__intro">
+            <p class="hero__prefix">Edgar codes realities</p>
+            <h1 class="hero__title">
+              <span class="hero__title-line">Программист-инженер</span>
+              <span class="hero__title-line hero__title-line--accent" data-rotate>
+                превращаю хаос в ясные цифровые переживания
+              </span>
+            </h1>
+            <p class="hero__lead">
+              Пять лет строю цифровые студии для людей и идей. Проектирую продукты, которые
+              чувствуют намерения пользователя так же точно, как архитектура реагирует на свет.
+            </p>
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="#contact">Сказать привет</a>
+              <a class="btn btn--ghost" href="#portfolio">Исследовать проекты</a>
+            </div>
+          </div>
+          <div class="hero__stats" role="list" aria-label="Основные факты">
+            <div class="stat-card" role="listitem">
+              <span class="stat-card__number">5</span>
+              <span class="stat-card__label">лет инженерного опыта</span>
+            </div>
+            <div class="stat-card" role="listitem">
+              <span class="stat-card__number">13</span>
+              <span class="stat-card__label">запущенных продуктов</span>
+            </div>
+            <div class="stat-card" role="listitem">
+              <span class="stat-card__number">∞</span>
+              <span class="stat-card__label">любознательность к будущему технологий</span>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="hero__badge">
+        <span>энергия</span>
+        <span>эмпатия</span>
+        <span>инженерия</span>
+      </div>
+    </header>
+    <main id="main">
+      <section class="section about" id="about" data-label="about">
+        <div class="section__header">
+          <span class="section__eyebrow">Обо мне</span>
+          <h2 class="section__title">Инженер с художественным сердцем</h2>
+        </div>
+        <div class="about__grid">
+          <div class="about__bio">
+            <p>
+              Я вижу код как архитектуру впечатлений. Строю сервисы, где технологии поддерживают человеческое внимание,
+              а интерфейсы становятся партнёрами, а не барьерами. Люблю задавать вопросы до тех пор, пока решение не станет
+              неизбежным.
+            </p>
+            <p>
+              В свободное время создаю генеративные скетчи, снимаю аналоговую фотографию и собираю коллекцию «тихих» игровыx
+              механик — те, что уважают ритм игрока и умеют слушать.
+            </p>
+          </div>
+          <div class="about__details">
+            <div class="impulses" aria-hidden="true">
+              <div class="impulse" style="--i: 1">эмпатия к пользователю</div>
+              <div class="impulse" style="--i: 2">инженерная честность</div>
+              <div class="impulse" style="--i: 3">арт-подход к архитектуре</div>
+              <div class="impulse" style="--i: 4">этика будущего</div>
+            </div>
+            <ul class="about__notes">
+              <li>Верю в бессрочный онбординг клиента и команды.</li>
+              <li>Люблю строить невидимые сервисные мосты.</li>
+              <li>Открываю технологии через призму аналоговых искусств.</li>
+            </ul>
+          </div>
+          <aside class="about__side">
+            <h3>Как думаю</h3>
+            <p>
+              Разворачиваю задачи в истории: "что почувствует человек?", "какой след оставит продукт?". Сочетаю строгую модульную
+              архитектуру с гибкими сценариями, чтобы интерфейсы оставались живыми и честными.
+            </p>
+            <div class="about__tags" role="list" aria-label="Экосистемы">
+              <span role="listitem">Web</span>
+              <span role="listitem">AR</span>
+              <span role="listitem">API архитектура</span>
+              <span role="listitem">Сервис-дизайн</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+      <section class="section portfolio" id="portfolio" data-label="portfolio">
+        <div class="section__header">
+          <span class="section__eyebrow">Портфолио</span>
+          <h2 class="section__title">Проекты как живые истории</h2>
+          <p class="section__subtitle">
+            Галерея показывает не просто результаты, а трансформацию идей и ощущений клиентов. Наведи на карточку, чтобы раскрыть
+            дополнительный слой.
+          </p>
+        </div>
+        <div class="portfolio__gallery" role="list">
+          <article class="story" role="listitem" data-spectrum="infra" tabindex="0">
+            <div class="story__visual" aria-hidden="true">
+              <span class="story__badge">Городские волны</span>
+            </div>
+            <div class="story__body">
+              <h3>Urban Resonance</h3>
+              <p class="story__hook">Спроектировал голос города, где данные превращаются в музыкальные импульсы.</p>
+              <ul class="story__detail">
+                <li><strong>Вызов:</strong> Создать понятный интерфейс к шумным данным мегаполиса.</li>
+                <li><strong>Решение:</strong> Визуальные спектры + аудио-API позволили пользователям слышать изменения потоков.</li>
+                <li><strong>Опыт клиента:</strong> Жители настроились на город как на плейлист, инвесторы получили прозрачную аналитику.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="story" role="listitem" data-spectrum="plasma" tabindex="0">
+            <div class="story__visual" aria-hidden="true">
+              <span class="story__badge">Тишина как сервис</span>
+            </div>
+            <div class="story__body">
+              <h3>Quiet Pulse</h3>
+              <p class="story__hook">Кодиовал тишину для медитации, где интерфейс растворяется в дыхании.</p>
+              <ul class="story__detail">
+                <li><strong>Вызов:</strong> Приложение для медитации требовало честной адаптации к состоянию пользователя.</li>
+                <li><strong>Решение:</strong> Биофидбек + адаптивные сценарии, генерирующие персональные звуковые ландшафты.</li>
+                <li><strong>Опыт клиента:</strong> 82% пользователей отметили снижение уровня тревоги спустя 2 недели.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="story" role="listitem" data-spectrum="violet" tabindex="0">
+            <div class="story__visual" aria-hidden="true">
+              <span class="story__badge">Невидимые мосты</span>
+            </div>
+            <div class="story__body">
+              <h3>Service Atlas</h3>
+              <p class="story__hook">Перевёл сложный b2b-сервис в интуитивный путь клиента.</p>
+              <ul class="story__detail">
+                <li><strong>Вызов:</strong> Разрозненные процессы не позволяли командам работать синхронно.</li>
+                <li><strong>Решение:</strong> Сервисная карта и API-шлюзы, которые объединяют людей и системы.</li>
+                <li><strong>Опыт клиента:</strong> Время онбординга сократилось вдвое, NPS вырос до 74.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="story story--lab" role="listitem" tabindex="0">
+            <div class="story__visual" aria-hidden="true">
+              <span class="story__badge">Лаборатория</span>
+            </div>
+            <div class="story__body">
+              <h3>Experimental Lab</h3>
+              <p class="story__hook">Прототипы, которые ещё ищут свою орбиту.</p>
+              <ul class="story__detail">
+                <li>Генеративная карта вдохновения в коллаборации с художниками света.</li>
+                <li>AR-инсталляция, реагирующая на жесты и контекст локации.</li>
+                <li>Инклюзивный интерфейс для образовательной платформы будущего.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section insights" id="insights" data-label="insights">
+        <div class="section__header">
+          <span class="section__eyebrow">Философия</span>
+          <h2 class="section__title">Инсайты и заметки о будущем технологий</h2>
+        </div>
+        <div class="insights__grid">
+          <article class="insight" tabindex="0">
+            <h3>Технология = забота</h3>
+            <p>
+              Если продукт не поддерживает человеческое внимание, он утрачивает смысл. Я проектирую решения, которые дарят время,
+              а не отбирают его.
+            </p>
+            <button type="button" class="insight__toggle" aria-expanded="false">Показать заметку</button>
+            <div class="insight__note" hidden>
+              <p>Каждая новая фича начинается с вопроса: «Как она укрепит доверие между людьми?».</p>
+            </div>
+          </article>
+          <article class="insight" tabindex="0">
+            <h3>Алгоритмы с эмпатией</h3>
+            <p>
+              Машины могут быть теплее, если мы вкладываем в них человеческий контекст. Это не магия, а дисциплина во внимание к
+              данным.
+            </p>
+            <button type="button" class="insight__toggle" aria-expanded="false">Показать заметку</button>
+            <div class="insight__note" hidden>
+              <p>В проектах Edgar использует прозрачные модели, где пользователь понимает, как появляется рекомендация.</p>
+            </div>
+          </article>
+          <article class="insight" tabindex="0">
+            <h3>Будущее — совместное</h3>
+            <p>
+              Самые смелые идеи рождаются на стыке дисциплин. Поэтому мои проекты — всегда кооперация дизайнеров, инженеров,
+              исследователей и клиентов.
+            </p>
+            <button type="button" class="insight__toggle" aria-expanded="false">Показать заметку</button>
+            <div class="insight__note" hidden>
+              <p>Веду "журнал сессий" — карту коллабораций, которая помогает видеть, где рождаются новые возможности.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section testimonials" id="testimonials" data-label="trust">
+        <div class="section__header">
+          <span class="section__eyebrow">Отзывы</span>
+          <h2 class="section__title">Истории доверия</h2>
+        </div>
+        <div class="testimonials__track" role="list">
+          <article class="testimonial" role="listitem" tabindex="0">
+            <p>
+              «Edgar пришёл, когда у нас был хаос из гипотез. Через две недели мы уже запускали пилот. Его код — как дирижёр, который
+              слышит каждую ноту команды».
+            </p>
+            <span class="testimonial__author">— Анастасия, CEO музыкального стартапа</span>
+          </article>
+          <article class="testimonial" role="listitem" tabindex="0">
+            <p>
+              «Он создаёт сервисы, которые кажется, будто всегда существовали. Клиенты чувствуют внимание в каждом пикселе».
+            </p>
+            <span class="testimonial__author">— Михаил, продакт-менеджер</span>
+          </article>
+          <article class="testimonial" role="listitem" tabindex="0">
+            <p>
+              «Edgar не просто решает задачу — он показывает, как будет жить продукт через несколько лет. Это редкое сочетание
+              инженерной строгости и поэзии».
+            </p>
+            <span class="testimonial__author">— Елена, арт-директор</span>
+          </article>
+        </div>
+      </section>
+      <section class="section contact" id="contact" data-label="contact">
+        <div class="section__header">
+          <span class="section__eyebrow">Контакт</span>
+          <h2 class="section__title">Синхронизироваться</h2>
+        </div>
+        <div class="contact__grid">
+          <form class="contact__form" autocomplete="on">
+            <label class="field">
+              <span>Имя</span>
+              <input type="text" name="name" required placeholder="Как к вам обращаться?" />
+            </label>
+            <label class="field">
+              <span>Email</span>
+              <input type="email" name="email" required placeholder="Где продолжить диалог?" />
+            </label>
+            <label class="field">
+              <span>Сообщение</span>
+              <textarea name="message" rows="4" placeholder="Расскажите о смелой идее"></textarea>
+            </label>
+            <button type="submit" class="btn btn--primary">Запустить разговор</button>
+            <p class="form__feedback" role="status" aria-live="polite" hidden>
+              Сообщение отправлено! Вернусь с ответом в ближайшее созвездие времени.
+            </p>
+          </form>
+          <div class="contact__notes">
+            <h3>Частоты присутствия</h3>
+            <ul class="contact__waves">
+              <li>
+                <a href="mailto:edgar@codesreality.io">edgar@codesreality.io</a>
+                <span>электронные письма с идеями</span>
+              </li>
+              <li>
+                <a href="https://dribbble.com" target="_blank" rel="noreferrer">Dribbble</a>
+                <span>визуальные эксперименты</span>
+              </li>
+              <li>
+                <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+                <span>публичные репозитории и инструменты</span>
+              </li>
+            </ul>
+            <div class="mantras" aria-live="polite" aria-atomic="true"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__grid">
+        <div class="footer__map">
+          <h3>Карта вдохновения</h3>
+          <ul>
+            <li data-spark="art">Генеративные скульптуры света</li>
+            <li data-spark="books">Книги о поведенческой экономике</li>
+            <li data-spark="sound">Необарочные саундтреки</li>
+            <li data-spark="cities">Ночные прогулки по модернистским районам</li>
+          </ul>
+        </div>
+        <div class="footer__session">
+          <h3>Журнал сессий</h3>
+          <ol>
+            <li><span>2024</span> — Хакатон «Этика алгоритмов»</li>
+            <li><span>2023</span> — Лаборатория сенсорного опыта</li>
+            <li><span>2022</span> — Резидент цифрового арт-пространства</li>
+          </ol>
+        </div>
+        <div class="footer__credits">
+          <p>Создано как цифровая студия Edgar.</p>
+          <a href="#top">Вернуться к началу</a>
+        </div>
+      </div>
+    </footer>
+    <div class="studio" id="studioLab" hidden>
+      <div class="studio__panel">
+        <h2>Режим студии</h2>
+        <p>Кликайте и перетаскивайте, чтобы расставлять световые пятна. Нажмите Esc для выхода.</p>
+      </div>
+    </div>
+    <script src="assets/script.js" type="module"></script>
+  </body>
+</html>
